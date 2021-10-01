@@ -27,8 +27,8 @@ for i in nums_list:
         min_num = i
         min_index = count_index
 
-print('Максимальное число в списке:', max_num, max_index)
-print('Минимальное число в списке:', min_num, min_index)
+print('Максимальное число в списке:', max_num, 'на позиции', max_index + 1)
+print('Минимальное число в списке:', min_num, 'на позиции', min_index + 1)
 print(nums_list)
 
 turn(nums_list, max_index, min_num)
